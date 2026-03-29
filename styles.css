@@ -1197,11 +1197,13 @@ a:hover {
   height: auto;
 }
 
-.ref-logo img {
+/* Referans logoları: SVG ölçüsü 350×150; sabit düşük yükseklik metni küçültüp “bozuk” gösteriyordu */
+.ref-logo .ref-logo-mark {
   display: block;
   width: 100%;
-  max-width: 220px;
-  height: 52px;
+  max-width: min(280px, 100%);
+  height: auto;
+  aspect-ratio: 350 / 150;
   margin-inline: auto;
   object-fit: contain;
   object-position: center;
