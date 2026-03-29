@@ -1,191 +1,849 @@
-İçeriğe atla
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <script>
+    (function () {
+      if (!/github\.io$/i.test(location.hostname)) return;
+      var path = location.pathname;
+      if (path.endsWith("/")) return;
+      var parts = path.split("/").filter(Boolean);
+      if (parts.length !== 1) return;
+      if (/\.[a-z0-9]{2,4}$/i.test(parts[0])) return;
+      location.replace(location.origin + path + "/" + location.search + location.hash);
+    })();
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=yes" />
 
+  <title>MBT Tercüme | Noter Onaylı Yeminli Tercüme Bürosu İstanbul — Tuzla, Kartal, Gebze</title>
+  <meta name="description" content="1994’ten beri MBT Tercüme: 30+ yıl tecrübe, 50+ dilde yeminli ve noter onaylı çeviri, apostil ve danışmanlık. Tuzla merkez, Kartal ve Gebze adliye ofisleri. ☎ 0216 493 97 11 · 0552 557 09 97." />
+  <meta name="keywords" content="MBT Tercüme, mbtercume, mbt tercüme, yeminli tercüme, noter onaylı tercüme, İstanbul tercüme bürosu, Tuzla tercüme, Kartal tercüme, Gebze tercüme, apostil, vize belgesi çevirisi, hukuki tercüme, akademik tercüme" />
+  <meta name="author" content="MBT Tercüme" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+  <meta name="copyright" content="MBT Tercüme 2026" />
+  <meta name="geo.region" content="TR-34" />
+  <meta name="geo.placename" content="İstanbul" />
+  <meta name="theme-color" content="#152a52" />
+  <meta name="apple-mobile-web-app-title" content="MBT Tercüme" />
+  <meta name="application-name" content="MBT Tercüme" />
+  <meta property="article:modified_time" content="2026-03-29T00:00:00+03:00" />
 
-Atla
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="apple-touch-icon" href="logo.svg" />
 
-Merhaba ⇄ Hello
-Hoş geldiniz ⇄ Willkommen
-Çeviri ⇄ Translation
-Küresel ⇄ Global
-￼
-50+ dil · Yeminli tercüme · 1994
-50+ dilde tercüme
-🇹🇷 TR 🇬🇧 EN 🇩🇪 DE 🇫🇷 FR 🇪🇸 ES 🇸🇦 AR 🇷🇺 RU 🇮🇹 IT 🇳🇱 NL 🇵🇱 PL 🇨🇳 ZH 🇯🇵 JA 🇰🇷 KO 🇵🇹 PT 🇬🇷 EL 🇸🇪 SV 🇺🇦 UK 🇮🇷 FA 🇮🇳 HI 🇧🇬 BG
-🇹🇷 TR 🇬🇧 EN 🇩🇪 DE 🇫🇷 FR 🇪🇸 ES 🇸🇦 AR 🇷🇺 RU 🇮🇹 IT 🇳🇱 NL 🇵🇱 PL 🇨🇳 ZH 🇯🇵 JA 🇰🇷 KO 🇵🇹 PT 🇬🇷 EL 🇸🇪 SV 🇺🇦 UK 🇮🇷 FA 🇮🇳 HI 🇧🇬 BG
-￼
-Ana Sayfa Hakkımızda Hizmetlerimiz Blog Bize Ulaşın WhatsApp
-0216 493 97 11 Teklif alın
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="MBT Tercüme" />
+  <meta property="og:title" content="MBT Tercüme | Noter Onaylı Yeminli Tercüme Bürosu" />
+  <meta property="og:description" content="30+ yıl tecrübe, 50+ dilde yeminli ve noter onaylı çeviri. Tuzla, Kartal ve Gebze ofisleri." />
 
-MBT Tercüme’ye hoş geldiniz!
-Dünyayla sözünüz tek olsun.
-Noter onaylı yeminli tercüme bürosu — 30+ yıl, 50+ dil, hukuki ve kurumsal belgelerde güvenilir çözüm.
-🇹🇷 TR 🇬🇧 EN 🇩🇪 DE 🇫🇷 FR 🇪🇸 ES 🇸🇦 AR 🇷🇺 RU +43
-Hemen teklif alın Hizmetlerimizi inceleyin
-￼
-	•	30+ Yıllık tecrübe
-	•	50+ Dilde çeviri
-	•	1500+ Tamamlanan proje
-Tercüme hizmetlerimiz
-Tercüme ihtiyaçlarınızı profesyonel bir ekip ile çözmek istiyorsanız, doğru yerdesiniz.
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="MBT Tercüme | Yeminli Tercüme İstanbul" />
+  <meta name="twitter:description" content="Noter onaylı yeminli tercüme, apostil ve danışmanlık. 50+ dil, üç ofis." />
 
-Ticaret ve iş tercümeleri
-Ticari dokümanlar, sözleşmeler, teklifler, bankacılık, finans işlemleri, uluslararası taahhütler, ihaleler, toplantı tutanakları, raporlar, fizibiliteler, araştırmalar ve benzeri her türlü ticari yazışma tercümeleri, konunun uzmanı ticari tercümanlarımızca yapılır.
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 
-Kitap, katalog, broşür, web tercümeleri
-Her konuda kitap, dergi, katalog ve broşürlerin her dilde yazılı çeviri hizmetidir. Uzmanlık gerektiren tercümeler branşlarına göre farklı tercümanlarımız tarafından yapılır. Web sayfalarının veya tüm internet sitelerinin diğer dillere çevirisi hizmeti de verilir.
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "#website",
+        "name": "MBT Tercüme",
+        "description": "Noter onaylı yeminli tercüme, apostil ve danışmanlık hizmetleri.",
+        "inLanguage": "tr-TR",
+        "publisher": { "@id": "#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "#organization",
+        "name": "MBT Tercüme Merkezi",
+        "alternateName": ["MBT Tercüme", "mbtercume", "MBTercüme"],
+        "logo": { "@type": "ImageObject", "url": "logo.svg" },
+        "email": "info@mbtercume.com",
+        "telephone": "+902164939711",
+        "foundingDate": "1994",
+        "description": "1994 yılında kurulan MBT Tercüme Merkezi; yeminli tercüme, noter onaylı tercüme, apostil ve danışmanlık hizmetleri sunar.",
+        "areaServed": { "@type": "Country", "name": "Türkiye" }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "#tuzla",
+        "name": "MBT Tercüme — Tuzla Merkez Ofis",
+        "parentOrganization": { "@id": "#organization" },
+        "telephone": ["+902164939711", "+905525570997"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Aydıntepe Mah. Tersane Sok. 2/B Özçelik İş Merk. Kat:3 D:16",
+          "addressLocality": "İçmeler / Tuzla",
+          "addressRegion": "İstanbul",
+          "addressCountry": "TR"
+        },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "#kartal",
+        "name": "MBT Tercüme — Kartal Adliye Ofisi",
+        "parentOrganization": { "@id": "#organization" },
+        "telephone": ["+902165661666", "+905527489986"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cevizli Mah. Enderun Sok. Nursanlar Plaza 4 No:29 Dükkan No:14/B",
+          "addressLocality": "Kartal",
+          "addressRegion": "İstanbul",
+          "addressCountry": "TR"
+        }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "#gebze",
+        "name": "MBT Tercüme — Gebze Adliye Ofisi",
+        "parentOrganization": { "@id": "#organization" },
+        "telephone": ["+902625038245", "+905337610646"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mevlana Mah. Soma Maden Şehitleri Bulvarı, Erenler Cad. 4/1 Elmas Plaza Kat:2 D:16",
+          "addressLocality": "Gebze",
+          "addressRegion": "Kocaeli",
+          "addressCountry": "TR"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <script>
+    (function () {
+      try {
+        if (sessionStorage.getItem("wtIntroV1") || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          document.documentElement.classList.add("intro-done");
+        }
+      } catch (e) {}
+    })();
+  </script>
 
-Film, CD, DVD tercümeleri
-Film, CD, DVD, kaset, mikrokaset, DAT, video kasetler, MPEG, WAV ve benzeri bilgisayar formatlarında kaydedilmiş ses ve görüntü dosyalarından verilen yazılı tercüme hizmetidir. Toplantı kayıtları, konferans, seminer, televizyon ve radyo kayıtları bu kapsamda tercüme edilir.
+  <a class="skip-link" href="#icerik">İçeriğe atla</a>
 
-Hukuki tercümeler
-Uluslararası ve T.C. hukuku konusunda uzman hukukçu tercümanlar tarafından verilen yazılı tercüme hizmetidir. Mahkeme kararları, hukuki yazışmalar, patent başvuruları, sözleşmeler, vekaletnameler, kanun ve yönetmelikler, beyannameler ve benzeri hukuki konularda tercüme çalışmaları bu kapsamda ele alınır.
+  <div id="site-intro" class="site-intro" role="presentation" aria-hidden="true">
+    <div class="site-intro-bg" aria-hidden="true"></div>
+    <div class="site-intro-particles" aria-hidden="true"></div>
+    <button type="button" class="site-intro-skip" id="site-intro-skip" aria-label="Açılışı atla">Atla</button>
+    <div class="site-intro-main">
+      <div class="site-intro-inner">
+        <div class="site-intro-globe" aria-hidden="true">
+          <svg class="site-intro-globe-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="78" stroke="url(#intro-g1)" stroke-width="2" opacity="0.35"/>
+            <circle cx="100" cy="100" r="62" stroke="url(#intro-g1)" stroke-width="1.5" opacity="0.45"/>
+            <ellipse cx="100" cy="100" rx="78" ry="28" stroke="rgba(255,255,255,0.2)" stroke-width="1.2"/>
+            <ellipse cx="100" cy="100" rx="78" ry="48" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+            <path d="M100 22v156M22 100h156" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-linecap="round"/>
+            <circle cx="100" cy="100" r="5" fill="#2dd4bf"/>
+            <defs>
+              <linearGradient id="intro-g1" x1="40" y1="40" x2="160" y2="160">
+                <stop stop-color="#fbbf24"/>
+                <stop offset="1" stop-color="#2dd4bf"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="site-intro-stage">
+          <div class="site-intro-line site-intro-line--1">
+            <span class="site-intro-from">Merhaba</span>
+            <span class="site-intro-mid" aria-hidden="true">⇄</span>
+            <span class="site-intro-to">Hello</span>
+          </div>
+          <div class="site-intro-line site-intro-line--2">
+            <span class="site-intro-from">Hoş geldiniz</span>
+            <span class="site-intro-mid" aria-hidden="true">⇄</span>
+            <span class="site-intro-to">Willkommen</span>
+          </div>
+          <div class="site-intro-line site-intro-line--3">
+            <span class="site-intro-from">Çeviri</span>
+            <span class="site-intro-mid" aria-hidden="true">⇄</span>
+            <span class="site-intro-to">Translation</span>
+          </div>
+          <div class="site-intro-line site-intro-line--4">
+            <span class="site-intro-from">Küresel</span>
+            <span class="site-intro-mid" aria-hidden="true">⇄</span>
+            <span class="site-intro-to">Global</span>
+          </div>
+          <div class="site-intro-line site-intro-line--brand">
+            <img src="logo-light.svg" width="260" height="52" alt="" decoding="async" />
+            <p class="site-intro-brand-tag">50+ dil · Yeminli tercüme · 1994</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-intro-footer">
+      <div class="site-intro-footer-inner">
+        <p class="site-intro-footer-lang-caption">50+ dilde tercüme</p>
+        <div class="site-intro-marquee site-intro-marquee--langs" aria-hidden="true">
+          <div class="site-intro-marquee-viewport">
+            <div class="site-intro-marquee-track site-intro-marquee-track--langs">
+              <div class="site-intro-marquee-group site-intro-marquee-group--langs">
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇹🇷</span> TR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇬🇧</span> EN</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇩🇪</span> DE</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇫🇷</span> FR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇪🇸</span> ES</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇸🇦</span> AR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇷🇺</span> RU</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇹</span> IT</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇳🇱</span> NL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇵🇱</span> PL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇨🇳</span> ZH</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇯🇵</span> JA</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇰🇷</span> KO</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇵🇹</span> PT</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇬🇷</span> EL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇸🇪</span> SV</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇺🇦</span> UK</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇷</span> FA</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇳</span> HI</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇧🇬</span> BG</span>
+              </div>
+              <div class="site-intro-marquee-group site-intro-marquee-group--langs">
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇹🇷</span> TR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇬🇧</span> EN</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇩🇪</span> DE</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇫🇷</span> FR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇪🇸</span> ES</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇸🇦</span> AR</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇷🇺</span> RU</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇹</span> IT</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇳🇱</span> NL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇵🇱</span> PL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇨🇳</span> ZH</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇯🇵</span> JA</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇰🇷</span> KO</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇵🇹</span> PT</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇬🇷</span> EL</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇸🇪</span> SV</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇺🇦</span> UK</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇷</span> FA</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇮🇳</span> HI</span>
+                <span class="site-intro-lang"><span class="site-intro-lang-emoji" aria-hidden="true">🇧🇬</span> BG</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-Teknik, tıbbi, bilimsel tercümeler
-Uzmanlık gerektiren tercüme hizmetimizdir. Teknik şartnameler, bilimsel çalışmalar, tıbbi bilgi gerektiren çeviriler, ilaç prospektüsleri, kullanım kılavuzları, teknik çizim ve formüller içeren tercümeler; bu branşlarda uzmanlaşmış ve yüksek öğretim görmüş tercümanlarımız tarafından tercüme edilir.
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#icerik">
+        <img src="logo.svg" width="300" height="58" alt="MBT Tercüme" decoding="async" fetchpriority="high" class="brand-logo-img" />
+      </a>
+      <nav class="nav" id="ana-menu" aria-label="Ana menü">
+        <a href="#icerik">Ana Sayfa</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#hizmetler">Hizmetlerimiz</a>
+        <a href="#blog">Blog</a>
+        <a href="#iletisim">Bize Ulaşın</a>
+        <a href="https://wa.me/905525570997?text=Merhaba%2C%20MBT%20Terc%C3%BCmeye%20yeminli%20terc%C3%BCme%20i%C3%A7in%20yaz%C4%B1yorum." rel="noopener noreferrer">WhatsApp</a>
+      </nav>
+      <a class="header-phone" href="tel:+902164939711" aria-label="Telefon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <span>0216 493 97 11</span>
+      </a>
+      <a class="btn btn-header-cta" href="#iletisim">Teklif alın</a>
+      <button type="button" class="nav-toggle" aria-controls="ana-menu" aria-expanded="false" aria-label="Menüyü aç">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-Akademik tercümeler
-Öğrencilere, öğretmenlere; tez, araştırma notları ve her türlü bilgi kaynaklarının tercümeleri ile ilgili eğitim konusunda verdiğimiz hizmetimizdir. Ayrıca üniversitelerin istediği biçimlerde baskı, sayfa düzeni ve kağıt seçenekleriyle hazırlanır. Akademik tercümelerde uzman kadromuz tarafından icra edilmektedir.
+  <main id="icerik">
+    <section class="hero hero--lingua" aria-labelledby="hero-baslik">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="container hero-split">
+        <div class="hero-copy">
+          <p class="hero-welcome">MBT Tercüme’ye hoş geldiniz!</p>
+          <h1 id="hero-baslik">Dünyayla sözünüz tek olsun<span class="hero-dot" aria-hidden="true">.</span></h1>
+          <p class="hero-tagline">Noter onaylı <strong>yeminli tercüme</strong> bürosu — 30+ yıl, <strong>50+ dil</strong>, hukuki ve kurumsal belgelerde güvenilir çözüm.</p>
+          <p class="hero-langs" aria-label="Örnek diller">
+            <span class="lang-chip" title="Türkçe">🇹🇷 TR</span>
+            <span class="lang-chip" title="English">🇬🇧 EN</span>
+            <span class="lang-chip" title="Deutsch">🇩🇪 DE</span>
+            <span class="lang-chip" title="Français">🇫🇷 FR</span>
+            <span class="lang-chip" title="Español">🇪🇸 ES</span>
+            <span class="lang-chip" title="العربية">🇸🇦 AR</span>
+            <span class="lang-chip" title="Русский">🇷🇺 RU</span>
+            <span class="lang-chip lang-more">+43</span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-cyan" href="#iletisim">Hemen teklif alın</a>
+            <a class="btn btn-ghost-light" href="#hizmetler">
+              <span class="btn-play" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              Hizmetlerimizi inceleyin
+            </a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-photo-frame">
+            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=900&amp;h=1010&amp;fit=crop&amp;q=85&amp;auto=format" width="640" height="720" alt="Diller arası metin ve çeviri — yazılı tercümede uzman hizmet" loading="eager" decoding="async" />
+          </div>
+        </div>
+      </div>
+      <div class="container hero-stats-wrap">
+        <ul class="stats stats--hero" role="list">
+          <li><strong>30+</strong> Yıllık tecrübe</li>
+          <li><strong>50+</strong> Dilde çeviri</li>
+          <li><strong>1500+</strong> Tamamlanan proje</li>
+        </ul>
+      </div>
+    </section>
 
-Sanatsal, edebi tercümeler
-Sanat, edebiyat ve benzeri konularda uzmanlık gerektiren tercüme hizmetimizdir. Her türlü edebi ve sanatsal çalışmalar bu kapsamda ele alınarak bu branşlarda uzman tercümanlarımızca tercüme edilir.
+    <section class="section section-alt" id="hizmetler" aria-labelledby="hizmetler-baslik">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="hizmetler-baslik">Tercüme hizmetlerimiz</h2>
+          <p>Tercüme ihtiyaçlarınızı profesyonel bir ekip ile çözmek istiyorsanız, doğru yerdesiniz.</p>
+        </header>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9M14 7V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M14 7v2h5"/></svg></div>
+            <h3>Ticaret ve iş tercümeleri</h3>
+            <p>Ticari dokümanlar, sözleşmeler, teklifler, bankacılık, finans işlemleri, uluslararası taahhütler, ihaleler, toplantı tutanakları, raporlar, fizibiliteler, araştırmalar ve benzeri her türlü ticari yazışma tercümeleri, konunun uzmanı ticari tercümanlarımızca yapılır.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M8 7h8M8 11h6"/></svg></div>
+            <h3>Kitap, katalog, broşür, web tercümeleri</h3>
+            <p>Her konuda kitap, dergi, katalog ve broşürlerin her dilde yazılı çeviri hizmetidir. Uzmanlık gerektiren tercümeler branşlarına göre farklı tercümanlarımız tarafından yapılır. Web sayfalarının veya tüm internet sitelerinin diğer dillere çevirisi hizmeti de verilir.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+            <h3>Film, CD, DVD tercümeleri</h3>
+            <p>Film, CD, DVD, kaset, mikrokaset, DAT, video kasetler, MPEG, WAV ve benzeri bilgisayar formatlarında kaydedilmiş ses ve görüntü dosyalarından verilen yazılı tercüme hizmetidir. Toplantı kayıtları, konferans, seminer, televizyon ve radyo kayıtları bu kapsamda tercüme edilir.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 8h14"/><path d="M8 8l-2 7h4l-2-7M16 8l-2 7h4l-2-7"/><path d="M6 21h4M14 21h4"/></svg></div>
+            <h3>Hukuki tercümeler</h3>
+            <p>Uluslararası ve T.C. hukuku konusunda uzman hukukçu tercümanlar tarafından verilen yazılı tercüme hizmetidir. Mahkeme kararları, hukuki yazışmalar, patent başvuruları, sözleşmeler, vekaletnameler, kanun ve yönetmelikler, beyannameler ve benzeri hukuki konularda tercüme çalışmaları bu kapsamda ele alınır.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+            <h3>Teknik, tıbbi, bilimsel tercümeler</h3>
+            <p>Uzmanlık gerektiren tercüme hizmetimizdir. Teknik şartnameler, bilimsel çalışmalar, tıbbi bilgi gerektiren çeviriler, ilaç prospektüsleri, kullanım kılavuzları, teknik çizim ve formüller içeren tercümeler; bu branşlarda uzmanlaşmış ve yüksek öğretim görmüş tercümanlarımız tarafından tercüme edilir.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 2 3 4 6 4s6-2 6-4v-5"/></svg></div>
+            <h3>Akademik tercümeler</h3>
+            <p>Öğrencilere, öğretmenlere; tez, araştırma notları ve her türlü bilgi kaynaklarının tercümeleri ile ilgili eğitim konusunda verdiğimiz hizmetimizdir. Ayrıca üniversitelerin istediği biçimlerde baskı, sayfa düzeni ve kağıt seçenekleriyle hazırlanır. Akademik tercümelerde uzman kadromuz tarafından icra edilmektedir.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c4 3 7 7 7 11a7 7 0 11-14 0c0-4 3-8 7-11z"/><circle cx="12" cy="14" r="2.5"/></svg></div>
+            <h3>Sanatsal, edebi tercümeler</h3>
+            <p>Sanat, edebiyat ve benzeri konularda uzmanlık gerektiren tercüme hizmetimizdir. Her türlü edebi ve sanatsal çalışmalar bu kapsamda ele alınarak bu branşlarda uzman tercümanlarımızca tercüme edilir.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <h3>Refakat hizmetleri</h3>
+            <p>Uluslararası tüm ticari aktiviteleriniz için gereksinim duyduğunuz tercümanlık, danışmanlık ve refakat hizmetlerinde kurumsal çözümler sunuyoruz. Deneyimli ve uzman tercüman kadrosuyla yurtdışından gelen konuklarınıza refakat hizmeti veya yurtdışına seyahatlerinizde refakat hizmeti sağlıyoruz.</p>
+          </article>
+        </div>
+        <div class="cta-inline">
+          <h3>Tercüme ihtiyaçlarınızı profesyonel bir ekip ile çözmek istiyorsanız, doğru yerdesiniz.</h3>
+          <a class="btn btn-gold" href="#iletisim">Bize ulaşın</a>
+        </div>
+      </div>
+    </section>
 
-Refakat hizmetleri
-Uluslararası tüm ticari aktiviteleriniz için gereksinim duyduğunuz tercümanlık, danışmanlık ve refakat hizmetlerinde kurumsal çözümler sunuyoruz. Deneyimli ve uzman tercüman kadrosuyla yurtdışından gelen konuklarınıza refakat hizmeti veya yurtdışına seyahatlerinizde refakat hizmeti sağlıyoruz.
-Tercüme ihtiyaçlarınızı profesyonel bir ekip ile çözmek istiyorsanız, doğru yerdesiniz.
-Bize ulaşın
-Referanslarımız
-Birlikte çalıştığımız seçkin kurum ve markalar.
-￼
-Arkas Lojistik
-Lojistik · denizcilik
-￼
-Dearsan
-Savunma sanayi
-￼
-Dünya Yacht
-Yat · denizcilik
-￼
-Evyap
-Tüketim · üretim
-￼
-Hekim Holding
-İnşaat · yapı
-￼
-Hyundai
-Otomotiv
-￼
-Nexans
-Enerji · kablo
-￼
-Otokar
-Otomotiv · savunma
-￼
-Pana Film
-Film · medya
-￼
-Türkter
-Denizcilik
-￼
-U.N. Ro-Ro
-Ro-Ro taşımacılık
-￼
-Yamato
-Lojistik · kargo
-Makale & haberler
-Vize, YÖK denkliği, yeminli tercümanlık ve sektörel rehberler.
-￼
-2 Ocak 2026
-Vize çeviri belgeleri
-￼
-6 Haziran 2024
-YÖK denkliği için gerekli tercüme evrakları nelerdir?
-￼
-6 Haziran 2024
-2024 çeviri ücretleri ve belirleyici faktörler
-￼
-6 Haziran 2024
-Yeminli tercüman kimdir?
-￼
-10 Ocak 2024
-Profesyonel ardıl çeviri hizmetleri
-￼
-10 Ocak 2024
-Pasaport tercümesi ve apostil hizmetleri
-￼
-10 Ocak 2024
-Küresel ticarette yeminli tercüme
-￼
-10 Ocak 2024
-Noter onaylı yeminli tercüme
-￼
-10 Ocak 2024
-Web sitesi tercümesi ve global iletişim
-￼
-10 Ocak 2024
-Nikâh tercümanlığı hizmetleri
-￼
-10 Ocak 2024
-Ticari çeviri ve tercüme hizmeti
-Teklif için iletişim
-MBT Tercüme
-Kurumsal profil, vizyon ve misyon.
-MBT Tercüme Merkezi, 1994 yılında kurulmuş olup yeminli tercüme, noter onaylı tercüme, apostil ve danışmanlık hizmetleri alanlarında yurtiçi ve yurtdışı müşterilerine profesyonel çözümler sunmaktadır.
-Alanında uzman yeminli tercüman kadromuz ve modern çeviri teknolojilerimiz sayesinde; hukuki, ticari, teknik, akademik ve resmi belgelerde doğru, hızlı ve güvenilir tercüme hizmeti sağlamaktayız.
-İstanbul merkezli ofislerimizle, Türkiye genelinde ve yurt dışında bireysel ve kurumsal müşterilerimize yüksek kalite standartlarında hizmet vermekteyiz.
-ISO standartlarında, gizlilik esasına dayalı yeminli tercüme hizmeti.
-Kurumsal hakkımızda
-1994 yılında kurulan MBT Tercüme Merkezi ulusal ve uluslararası müşterilerimize çeşitli dillerde tercüme ve danışmanlık hizmeti vermektedir. Uzman tercümanlarımız ve modern teknolojiler sayesinde siz değerli müşterilerimize kaliteli, doğru ve kullanılabilir ürünler ve çözümler sunmaktayız.
-Bugüne kadar tersanecilik, gemi yapım sözleşmeleri, fuar organizasyonu, stant rezervasyonu, makine mühendisliği, hidrolik-pnömatik, otomotiv, otomasyon, mekatronik, enerji, tarım, gıda, bankacılık, denizcilik, telekomünikasyon, yazılım ve bilgisayar, kimya, tıp, ekonomi, hukuk, tekstil, kalite güvence ve kalite yönetim sistemleri, güvenlik sistemleri, muhasebe, ticaret, inşaat mühendisliği, haritacılık ve kadastro ile sosyal bilimler konularında ve çok sayıda tercüme-danışma projelerini başarıyla gerçekleştirmiş bulunuyoruz.
-Hedefimiz, tercüme–danışma sektöründe yarattığımız kalite ve güveni her geçen gün daha da arttırmak; müşterilerimize gelişen teknolojiye uygun kusursuz hizmet vermektir. Bünyesinde 20 dilde çeviri yapabilen, dil edebiyat ve mütercim tercümanlık mezunu yerli–yabancı, doktor, mühendis, hukukçu ve ekonomist çevirmenler barındırmaktadır.
-MBT Tercüme İstanbul’da yerleşik, alanında profesyonel olan bir kadronun sürüklediği bir şirkettir. Kuruluş amacı elbette ticari kaygılar içermekle birlikte temelde kurumsal müşterilerinin çözüm ortağı olmak şeklinde özetlenebilir. Müşterimize hizmet verirken MBT Tercüme personeli olarak kendimizi müşterimizin bir çalışanı gibi görürüz. Kalite anlayışımızı toplam kalite yönetimi gibi modernizmin mekanik terimlerine sıkıştırmadık; Türk kültürünün özünde kalite zaten vardı.
-Vizyonumuz
-İşletmelerin kurumsal kalitelerini geliştirmeleri yolunda karşılaştıkları her türlü sorunlarına çözüm ve sürekli destek bulabilecekleri, ticari endişeyi ön planda tutmayan, güvenilir bir kuruluş dendiğinde akla gelen ilk danışmanlık ve tercüme firması olmak.
-Misyonumuz
-Kurumsal çözümler sunulmasında; üst düzey teknoloji, birikim ve deneyim ile donatılmış metodolojileri kullanarak yaratıcı ve profesyonel kadrolarla kurumsal müşterilerimize ihtiyaç duydukları hizmetleri ticari bir ilişki mantığı içerisinde değil karşılıksız dostane bir anlayış çerçevesinde sunmak.
-Bize ulaşın
-Üç ofisimiz, telefon, WhatsApp ve e-posta.
+    <section class="section" id="referanslar" aria-labelledby="ref-baslik">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="ref-baslik">Referanslarımız</h2>
+          <p>Birlikte çalıştığımız seçkin kurum ve markalar.</p>
+        </header>
+        <div class="ref-clients" role="list">
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/arkas.svg" width="350" height="150" alt="Arkas Lojistik logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Arkas Lojistik</p>
+            <p class="ref-cap">Lojistik · denizcilik</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/dearsan.svg" width="350" height="150" alt="Dearsan logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Dearsan</p>
+            <p class="ref-cap">Savunma sanayi</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/dunya-yacht.svg" width="350" height="150" alt="Dünya Yacht logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Dünya Yacht</p>
+            <p class="ref-cap">Yat · denizcilik</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/evyap.svg" width="350" height="150" alt="Evyap logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Evyap</p>
+            <p class="ref-cap">Tüketim · üretim</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/hekim-holding.svg" width="350" height="150" alt="Hekim Holding logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Hekim Holding</p>
+            <p class="ref-cap">İnşaat · yapı</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/hyundai.svg" width="350" height="150" alt="Hyundai logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Hyundai</p>
+            <p class="ref-cap">Otomotiv</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/nexans.svg" width="350" height="150" alt="Nexans logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Nexans</p>
+            <p class="ref-cap">Enerji · kablo</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/otokar.svg" width="350" height="150" alt="Otokar logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Otokar</p>
+            <p class="ref-cap">Otomotiv · savunma</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/pana-film.svg" width="350" height="150" alt="Pana Film logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Pana Film</p>
+            <p class="ref-cap">Film · medya</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/turkter.svg" width="350" height="150" alt="Türkter logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Türkter</p>
+            <p class="ref-cap">Denizcilik</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/unroro.svg" width="350" height="150" alt="U.N. Ro-Ro logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">U.N. Ro-Ro</p>
+            <p class="ref-cap">Ro-Ro taşımacılık</p>
+          </article>
+          <article class="ref-item" role="listitem">
+            <div class="ref-logo">
+              <img src="images/referanslar/yamato.svg" width="350" height="150" alt="Yamato logosu" loading="lazy" decoding="async" />
+            </div>
+            <p class="ref-name">Yamato</p>
+            <p class="ref-cap">Lojistik · kargo</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-Merkez ofis
-Tuzla
-Aydıntepe Mah. Tersane Sok. 2/B Özçelik İş Merk. Kat:3 D:16 İçmeler / Tuzla, İstanbul
-	•	0552 557 09 97 Mobil
-	•	0216 493 97 11 Sabit
-Haritada aç WhatsApp
+    <section class="section section-alt" id="blog" aria-labelledby="blog-baslik">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="blog-baslik">Makale &amp; haberler</h2>
+          <p>Vize, YÖK denkliği, yeminli tercümanlık ve sektörel rehberler.</p>
+        </header>
+        <div class="blog-grid">
+          <a class="blog-card" href="makale/noter-onayli-yeminli-tercume.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=768&amp;h=512&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="512" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2026-01-02">2 Ocak 2026</time>
+              <h3>Vize çeviri belgeleri</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/yok-denkligi-icin-gerekli-tercume-evraklari-nelerdir.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=768&amp;h=576&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="576" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-06-06">6 Haziran 2024</time>
+              <h3>YÖK denkliği için gerekli tercüme evrakları nelerdir?</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/2024-ceviri-ucretleri-ve-belirleyici-faktorler.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=768&amp;h=576&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="576" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-06-06">6 Haziran 2024</time>
+              <h3>2024 çeviri ücretleri ve belirleyici faktörler</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/yeminli-tercuman-kimdir.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=768&amp;h=576&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="576" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-06-06">6 Haziran 2024</time>
+              <h3>Yeminli tercüman kimdir?</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/world-tercume-ofisinden-profesyonel-ardil-ceviri-hizmetleri.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=768&amp;h=576&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="576" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Profesyonel ardıl çeviri hizmetleri</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/pasaport-tercumesi-ve-apostil-hizmetleri.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=768&amp;h=576&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="576" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Pasaport tercümesi ve apostil hizmetleri</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/world-yeminli-tercume-ile-kuresel-ekonomide-bir-kopru.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=768&amp;h=406&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="406" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Küresel ticarette yeminli tercüme</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/noter-onayli-yeminli-tercume-guven-ve-uzmanlikla-hizmetinizdeyiz.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=768&amp;h=406&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="406" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Noter onaylı yeminli tercüme</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/web-sitesi-tercumesi-global-pazarda-etkin-iletisim.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=768&amp;h=406&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="406" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Web sitesi tercümesi ve global iletişim</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/nikah-tercumanligi-ile-ozel-gununuzu-unutulmaz-kilin.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=768&amp;h=406&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="406" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Nikâh tercümanlığı hizmetleri</h3>
+            </div>
+          </a>
+          <a class="blog-card" href="makale/ticari-ceviri-ticari-tercume-hizmeti.html">
+            <div class="blog-thumb">
+              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=768&amp;h=406&amp;fit=crop&amp;q=85&amp;auto=format" width="768" height="406" alt="" loading="lazy" decoding="async" />
+            </div>
+            <div class="blog-body">
+              <time datetime="2024-01-10">10 Ocak 2024</time>
+              <h3>Ticari çeviri ve tercüme hizmeti</h3>
+            </div>
+          </a>
+        </div>
+        <p class="blog-more"><a class="btn btn-outline" href="#iletisim">Teklif için iletişim</a></p>
+      </div>
+    </section>
 
-İstanbul · Adliye
-Kartal
-Cevizli Mahallesi Enderun Sokak Nursanlar Plaza 4 No:29 Dükkan No:14/B Kartal / İstanbul
-	•	0552 748 99 86 Mobil
-	•	0216 566 16 66 Sabit
-Haritada aç WhatsApp
+    <section class="section" id="hakkimizda" aria-labelledby="hakkimizda-baslik">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="hakkimizda-baslik">MBT Tercüme</h2>
+          <p>Kurumsal profil, vizyon ve misyon.</p>
+        </header>
+        <div class="about-block">
+          <p><strong>MBT Tercüme Merkezi</strong>, 1994 yılında kurulmuş olup <strong>yeminli tercüme</strong>, <strong>noter onaylı tercüme</strong>, <strong>apostil</strong> ve <strong>danışmanlık</strong> hizmetleri alanlarında yurtiçi ve yurtdışı müşterilerine profesyonel çözümler sunmaktadır.</p>
+          <p>Alanında uzman yeminli tercüman kadromuz ve modern çeviri teknolojilerimiz sayesinde; hukuki, ticari, teknik, akademik ve resmi belgelerde doğru, hızlı ve güvenilir tercüme hizmeti sağlamaktayız.</p>
+          <p>İstanbul merkezli ofislerimizle, Türkiye genelinde ve yurt dışında bireysel ve kurumsal müşterilerimize yüksek kalite standartlarında hizmet vermekteyiz.</p>
+          <p><strong>ISO standartlarında, gizlilik esasına dayalı yeminli tercüme hizmeti.</strong></p>
 
-Kocaeli · Adliye
-Gebze
-Mevlana Mah. Soma Maden Şehitleri Bul. Erenler Caddesi 4/1 Elmas Plaza Kat:2 D:16 Gebze / Kocaeli
-	•	0533 761 06 46 Mobil
-	•	0262 503 82 45 Sabit
-Haritada aç WhatsApp
-E-posta
-info@mbtercume.com·ofis@mbtercume.com
-￼
-MBT Tercüme Merkezi — yeminli tercüme, noter onaylı tercüme, apostil ve danışmanlık. İstanbul Tuzla, Kartal ve Gebze ofisleri.
-Hizmetlerimiz
-	•	Ticaret ve iş tercümeleri
-	•	Kitap, katalog, broşür, web
-	•	Film, CD, DVD tercümeleri
-	•	Teknik, tıbbi, bilimsel
-	•	Akademik tercümeler
-	•	Sanatsal, edebi
-	•	Refakat hizmetleri
-	•	Hukuki tercümeler
-	•	Vize ve resmi belgeler
-	•	Pasaport ve apostil
-	•	Noter onaylı yeminli tercüme
-	•	Web sitesi tercümesi
-Menü
-	•	Ana sayfa
-	•	Hakkımızda
-	•	Makale & haberler
-	•	Referanslar
-	•	İletişim
-© MBT Tercüme Merkezi · Tüm hakları saklıdır.
+          <h2>Kurumsal hakkımızda</h2>
+          <p>1994 yılında kurulan MBT Tercüme Merkezi ulusal ve uluslararası müşterilerimize çeşitli dillerde tercüme ve danışmanlık hizmeti vermektedir. Uzman tercümanlarımız ve modern teknolojiler sayesinde siz değerli müşterilerimize kaliteli, doğru ve kullanılabilir ürünler ve çözümler sunmaktayız.</p>
+          <p>Bugüne kadar tersanecilik, gemi yapım sözleşmeleri, fuar organizasyonu, stant rezervasyonu, makine mühendisliği, hidrolik-pnömatik, otomotiv, otomasyon, mekatronik, enerji, tarım, gıda, bankacılık, denizcilik, telekomünikasyon, yazılım ve bilgisayar, kimya, tıp, ekonomi, hukuk, tekstil, kalite güvence ve kalite yönetim sistemleri, güvenlik sistemleri, muhasebe, ticaret, inşaat mühendisliği, haritacılık ve kadastro ile sosyal bilimler konularında ve çok sayıda tercüme-danışma projelerini başarıyla gerçekleştirmiş bulunuyoruz.</p>
+          <p>Hedefimiz, tercüme–danışma sektöründe yarattığımız kalite ve güveni her geçen gün daha da arttırmak; müşterilerimize gelişen teknolojiye uygun kusursuz hizmet vermektir. Bünyesinde 20 dilde çeviri yapabilen, dil edebiyat ve mütercim tercümanlık mezunu yerli–yabancı, doktor, mühendis, hukukçu ve ekonomist çevirmenler barındırmaktadır.</p>
+          <p>MBT Tercüme İstanbul’da yerleşik, alanında profesyonel olan bir kadronun sürüklediği bir şirkettir. Kuruluş amacı elbette ticari kaygılar içermekle birlikte temelde kurumsal müşterilerinin çözüm ortağı olmak şeklinde özetlenebilir. Müşterimize hizmet verirken MBT Tercüme personeli olarak kendimizi müşterimizin bir çalışanı gibi görürüz. Kalite anlayışımızı toplam kalite yönetimi gibi modernizmin mekanik terimlerine sıkıştırmadık; Türk kültürünün özünde kalite zaten vardı.</p>
+
+          <div class="vm-grid">
+            <div class="vm-card">
+              <h3>Vizyonumuz</h3>
+              <p>İşletmelerin kurumsal kalitelerini geliştirmeleri yolunda karşılaştıkları her türlü sorunlarına çözüm ve sürekli destek bulabilecekleri, ticari endişeyi ön planda tutmayan, güvenilir bir kuruluş dendiğinde akla gelen ilk danışmanlık ve tercüme firması olmak.</p>
+            </div>
+            <div class="vm-card">
+              <h3>Misyonumuz</h3>
+              <p>Kurumsal çözümler sunulmasında; üst düzey teknoloji, birikim ve deneyim ile donatılmış metodolojileri kullanarak yaratıcı ve profesyonel kadrolarla kurumsal müşterilerimize ihtiyaç duydukları hizmetleri ticari bir ilişki mantığı içerisinde değil karşılıksız dostane bir anlayış çerçevesinde sunmak.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="iletisim" aria-labelledby="iletisim-baslik">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="iletisim-baslik">Bize ulaşın</h2>
+          <p>Üç ofisimiz, telefon, WhatsApp ve e-posta.</p>
+        </header>
+        <div class="contact-grid">
+          <article class="contact-card contact-card--tuzla">
+            <div class="contact-card-accent" aria-hidden="true"></div>
+            <div class="contact-card-body">
+              <p class="contact-card-label">Merkez ofis</p>
+              <h3>Tuzla</h3>
+              <address>Aydıntepe Mah. Tersane Sok. 2/B Özçelik İş Merk. Kat:3 D:16 İçmeler / Tuzla, İstanbul</address>
+              <ul class="contact-phone-list">
+                <li>
+                  <a class="contact-phone" href="tel:+905525570997">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0552 557 09 97</span>
+                    <span class="contact-phone-note">Mobil</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-phone" href="tel:+902164939711">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0216 493 97 11</span>
+                    <span class="contact-phone-note">Sabit</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="contact-actions">
+                <a class="contact-chip contact-chip--map" href="https://maps.app.goo.gl/qWVB2xEch3DDF2Sq7" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Haritada aç
+                </a>
+                <a class="contact-chip contact-chip--wa" href="https://wa.me/905525570997?text=Merhaba%2C%20Tuzla%20ofisi%20i%C3%A7in%20teklif%20almak%20istiyorum." rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="contact-card contact-card--kartal">
+            <div class="contact-card-accent" aria-hidden="true"></div>
+            <div class="contact-card-body">
+              <p class="contact-card-label">İstanbul · Adliye</p>
+              <h3>Kartal</h3>
+              <address>Cevizli Mahallesi Enderun Sokak Nursanlar Plaza 4 No:29 Dükkan No:14/B Kartal / İstanbul</address>
+              <ul class="contact-phone-list">
+                <li>
+                  <a class="contact-phone" href="tel:+905527489986">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0552 748 99 86</span>
+                    <span class="contact-phone-note">Mobil</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-phone" href="tel:+902165661666">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0216 566 16 66</span>
+                    <span class="contact-phone-note">Sabit</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="contact-actions">
+                <a class="contact-chip contact-chip--map" href="https://maps.app.goo.gl/RxHPqS8ZWtMomCFL8" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Haritada aç
+                </a>
+                <a class="contact-chip contact-chip--wa" href="https://wa.me/905527489986?text=Merhaba%2C%20Kartal%20ofisi%20i%C3%A7in%20teklif%20almak%20istiyorum." rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="contact-card contact-card--gebze">
+            <div class="contact-card-accent" aria-hidden="true"></div>
+            <div class="contact-card-body">
+              <p class="contact-card-label">Kocaeli · Adliye</p>
+              <h3>Gebze</h3>
+              <address>Mevlana Mah. Soma Maden Şehitleri Bul. Erenler Caddesi 4/1 Elmas Plaza Kat:2 D:16 Gebze / Kocaeli</address>
+              <ul class="contact-phone-list">
+                <li>
+                  <a class="contact-phone" href="tel:+905337610646">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0533 761 06 46</span>
+                    <span class="contact-phone-note">Mobil</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-phone" href="tel:+902625038245">
+                    <span class="contact-phone-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                    <span>0262 503 82 45</span>
+                    <span class="contact-phone-note">Sabit</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="contact-actions">
+                <a class="contact-chip contact-chip--map" href="https://maps.app.goo.gl/CBN7FFhBA4MbjKfz6" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Haritada aç
+                </a>
+                <a class="contact-chip contact-chip--wa" href="https://wa.me/905337610646?text=Merhaba%2C%20Gebze%20ofisi%20i%C3%A7in%20teklif%20almak%20istiyorum." rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="contact-emails">
+          <div class="contact-emails-inner">
+            <span class="contact-emails-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div class="contact-emails-text">
+              <strong>E-posta</strong>
+              <p><a href="mailto:info@mbtercume.com">info@mbtercume.com</a><span class="contact-emails-sep">·</span><a href="mailto:ofis@mbtercume.com">ofis@mbtercume.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="logo-light.svg" width="300" height="58" alt="MBT Tercüme" class="footer-logo-img" decoding="async" />
+        <p class="footer-tag">MBT Tercüme Merkezi — yeminli tercüme, noter onaylı tercüme, apostil ve danışmanlık. İstanbul Tuzla, Kartal ve Gebze ofisleri.</p>
+      </div>
+      <div>
+        <h3>Hizmetlerimiz</h3>
+        <ul>
+          <li><a href="#hizmetler">Ticaret ve iş tercümeleri</a></li>
+          <li><a href="#hizmetler">Kitap, katalog, broşür, web</a></li>
+          <li><a href="#hizmetler">Film, CD, DVD tercümeleri</a></li>
+          <li><a href="#hizmetler">Teknik, tıbbi, bilimsel</a></li>
+          <li><a href="#hizmetler">Akademik tercümeler</a></li>
+          <li><a href="#hizmetler">Sanatsal, edebi</a></li>
+          <li><a href="#hizmetler">Refakat hizmetleri</a></li>
+          <li><a href="#hizmetler">Hukuki tercümeler</a></li>
+          <li><a href="#hizmetler">Vize ve resmi belgeler</a></li>
+          <li><a href="#hizmetler">Pasaport ve apostil</a></li>
+          <li><a href="#hizmetler">Noter onaylı yeminli tercüme</a></li>
+          <li><a href="#hizmetler">Web sitesi tercümesi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Menü</h3>
+        <ul>
+          <li><a href="#icerik">Ana sayfa</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#blog">Makale &amp; haberler</a></li>
+          <li><a href="#referanslar">Referanslar</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="y"></span> MBT Tercüme Merkezi · Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/905525570997?text=Merhaba%2C%20MBT%20Terc%C3%BCmeye%20yeminli%20terc%C3%BCme%20i%C3%A7in%20yaz%C4%B1yorum." title="WhatsApp ile yazın" aria-label="WhatsApp ile MBT Tercüme Tuzla hattına yazın" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    (function () {
+      var introEl = document.getElementById("site-intro");
+      var introSkip = document.getElementById("site-intro-skip");
+
+      function finishIntro() {
+        if (!introEl || introEl.classList.contains("is-done")) return;
+        try {
+          sessionStorage.setItem("wtIntroV1", "1");
+        } catch (e) {}
+        introEl.classList.add("is-done");
+        introEl.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("intro-running");
+        var removed = false;
+        function removeIntro() {
+          if (removed) return;
+          removed = true;
+          if (introEl.parentNode) introEl.parentNode.removeChild(introEl);
+        }
+        introEl.addEventListener("transitionend", function (ev) {
+          if (ev.target !== introEl || ev.propertyName !== "opacity") return;
+          removeIntro();
+        });
+        window.setTimeout(removeIntro, 900);
+      }
+
+      if (introEl && !document.documentElement.classList.contains("intro-done")) {
+        document.body.classList.add("intro-running");
+        introEl.setAttribute("aria-hidden", "true");
+        introEl.classList.add("is-active");
+        window.setTimeout(finishIntro, 5500);
+        if (introSkip) introSkip.addEventListener("click", finishIntro);
+        var skipMain = document.querySelector("a.skip-link");
+        if (skipMain) {
+          skipMain.addEventListener("click", function () {
+            if (introEl && introEl.parentNode && introEl.classList.contains("is-active") && !introEl.classList.contains("is-done")) {
+              finishIntro();
+            }
+          });
+        }
+      } else if (introEl) {
+        introEl.parentNode.removeChild(introEl);
+      }
+
+      var yEl = document.getElementById("y");
+      if (yEl) yEl.textContent = new Date().getFullYear();
+
+      var header = document.getElementById("site-header");
+      function onScroll() {
+        if (header) header.classList.toggle("is-scrolled", window.scrollY > 48);
+      }
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+
+      var toggle = document.querySelector(".nav-toggle");
+      var nav = document.querySelector(".nav");
+      function setMenuOpen(open) {
+        document.body.classList.toggle("menu-open", open);
+        if (nav) nav.classList.toggle("is-open", open);
+        if (toggle) {
+          toggle.setAttribute("aria-expanded", open);
+          toggle.setAttribute("aria-label", open ? "Menüyü kapat" : "Menüyü aç");
+        }
+      }
+      if (toggle && nav) {
+        toggle.addEventListener("click", function () {
+          setMenuOpen(!nav.classList.contains("is-open"));
+        });
+        nav.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            setMenuOpen(false);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
