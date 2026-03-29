@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="150" viewBox="0 0 350 150" role="img" aria-label="Evyap">
+  <rect width="350" height="150" fill="#f0f3fa" rx="10"/>
+  <rect x="1" y="1" width="348" height="148" fill="none" stroke="#c5d0e6" stroke-width="1" rx="9"/>
+  <text x="175" y="88" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#152a52">Evyap</text>
+</svg>
